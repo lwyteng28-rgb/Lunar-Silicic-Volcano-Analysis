@@ -1,0 +1,264 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "6.1",
+    "input_directory": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\",
+    "output_directory": "R:\\Teng\\Final Project Dataset\\",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "the four Mairan lunar domes topography.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat",
+                "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.hdr", "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat.enp"]
+            },
+            "bands": "0,1,2",
+            "quick_stretch": "linear",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                }
+            ],
+            "zoom_percent": 80.000000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer001": {
+            "name": "New_Annotation.anz",
+            "data": {
+                "uri": "R:\\Teng\\Final Project Dataset\\New_Annotation.anz",
+                "type": "annotation"
+            },
+            "hide": 1,
+            "transparency": 0
+        },
+        "layer002": {
+            "name": "shaded relief.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\shaded relief.dat",
+                "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\shaded relief.hdr"]
+            },
+            "bands": "0,1,2",
+            "quick_stretch": "linear",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                }
+            ],
+            "zoom_percent": 80.000000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer003": {
+            "name": "hillshade.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\hillshade.dat",
+                "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\hillshade.hdr"]
+            },
+            "bands": "0,1,2",
+            "quick_stretch": "linear",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                }
+            ],
+            "zoom_percent": 80.000000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer004": {
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat",
+                "auxiliary_url": ["C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.hdr", "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat.enp"]
+            },
+            "band": 0,
+            "ranges": [[0.0000000000000000, 1.3555835485458374], [1.3555835485458374, 2.7111670970916748], [2.7111670970916748, 4.0667506456375122], [4.0667506456375122, 5.4223341941833496], [5.4223341941833496, 6.7779177427291870], [6.7779177427291870, 8.1335012912750244], [8.1335012912750244, 9.4890848398208618], [9.4890848398208618, 10.844668388366699], [10.844668388366699, 12.200251936912537], [12.200251936912537, 13.555835485458374], [13.555835485458374, 14.911419034004211], [14.911419034004211, 16.267002582550049], [16.267002582550049, 17.622586131095886], [17.622586131095886, 18.978169679641724], [18.978169679641724, 20.333753228187561], [20.333753228187561, 21.689336776733398]],
+            "name": "Raster Color Slice",
+            "palette": [[0, 0, 0], [124, 0, 255], [52, 0, 255], [0, 24, 255], [0, 101, 255], [0, 177, 255], [0, 254, 255], [0, 255, 179], [0, 255, 103], [0, 255, 22], [55, 255, 0], [132, 255, 0], [208, 255, 0], [255, 225, 0], [255, 149, 0], [255, 72, 0], [255, 5, 0]],
+            "hide": 0,
+            "transparency": 0
+        },
+        "layer005": {
+            "name": "Mairan_sldem2015_512_30n_60n_270_315.jp2",
+            "hide": 1,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\Mairan_sldem2015_512_30n_60n_270_315.jp2"
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -5243.0000000000000,
+                    "stretch_max": 270.00000000000000
+                }
+            ],
+            "zoom_percent": 80.000000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic",
+            "roi000": {
+                "name": "ROI #1",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 3,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi001": {
+                "name": "ROI #2",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 2,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi002": {
+                "name": "ROI #3",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 1,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi003": {
+                "name": "ROI #5",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 0,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            }
+        },
+        "layer006": {
+            "name": "Topographic_Modeling_output_raster_3068026498.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat",
+                "auxiliary_url": ["C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.hdr", "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat.enp"]
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.57113307097190158,
+                    "stretch_max": 9.2551034986019634
+                }
+            ],
+            "zoom_percent": 80.000000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "310.69678,41.186535",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "uri": "R:\\Teng\\Final Project Dataset\\New_Annotation.anz",
+        "type": "annotation"
+    },
+    "dataset0001": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat",
+        "auxiliary_url": ["C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.hdr", "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Modeling_output_raster_3068026498.dat.enp"]
+    },
+    "dataset0002": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Features_output_raster_3254320502.dat",
+        "auxiliary_url": ["C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Features_output_raster_3254320502.hdr", "C:\\Users\\lteng\\AppData\\Local\\Temp\\ENVI_Session_684054582\\Topographic_Features_output_raster_3254320502.dat.enp"]
+    },
+    "dataset0003": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\hillshade.dat",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\hillshade.hdr"]
+    },
+    "dataset0004": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\shaded relief.dat",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\shaded relief.hdr"]
+    },
+    "dataset0005": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\Topography Mairan",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\Topography Mairan.hdr", "R:\\Teng\\Final Project Dataset\\Topography Mairan.enp"]
+    },
+    "dataset0006": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.hdr", "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat.enp"]
+    },
+    "dataset0007": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\Mairan_sldem2015_512_30n_60n_270_315.jp2"
+    },
+    "dataset0008": {
+        "dataset_index": 0,
+        "factory": "URLRoi",
+        "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+    }
+}

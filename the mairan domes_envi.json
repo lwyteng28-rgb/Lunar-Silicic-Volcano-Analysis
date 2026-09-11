@@ -1,0 +1,130 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "6.1",
+    "input_directory": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\",
+    "output_directory": "R:\\Teng\\Final Project Dataset\\",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "Mairan_sldem2015_512_30n_60n_270_315.jp2",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\Mairan_sldem2015_512_30n_60n_270_315.jp2"
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -5243.0000000000000,
+                    "stretch_max": 270.00000000000000
+                }
+            ],
+            "zoom_percent": 16.777216,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic",
+            "roi000": {
+                "name": "ROI #1",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 3,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi001": {
+                "name": "ROI #2",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 2,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi002": {
+                "name": "ROI #3",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 1,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            },
+            "roi003": {
+                "name": "ROI #5",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 0,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+                }
+            }
+        },
+        "layer001": {
+            "name": "the four Mairan lunar domes topography.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat",
+                "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.hdr"]
+            },
+            "bands": "0,1,2",
+            "quick_stretch": "linear",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                },
+                {
+                    "stretch_min": 0.0000000000000000,
+                    "stretch_max": 255.00000000000000
+                }
+            ],
+            "zoom_percent": 16.777216,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "310.65511,41.476479",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.dat",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\the four Mairan lunar domes topography.hdr"]
+    },
+    "dataset0001": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\Topography Mairan",
+        "auxiliary_url": ["R:\\Teng\\Final Project Dataset\\Topography Mairan.hdr", "R:\\Teng\\Final Project Dataset\\Topography Mairan.enp"]
+    },
+    "dataset0002": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\Mairan_sldem2015_512_30n_60n_270_315.jp2"
+    },
+    "dataset0003": {
+        "dataset_index": 0,
+        "factory": "URLRoi",
+        "url": "R:\\Teng\\Final Project Dataset\\the mairan domes.xml"
+    }
+}

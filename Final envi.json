@@ -1,0 +1,258 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "6.1",
+    "input_directory": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\",
+    "output_directory": "R:\\Teng\\Final Project Dataset\\",
+    "layout": "1,1",
+    "view00": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "sldem2015_512_30n_60n_270_315.jp2",
+            "hide": 1,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\sldem2015_512_30n_60n_270_315.jp2"
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -5243.0000000000000,
+                    "stretch_max": 270.00000000000000
+                }
+            ],
+            "zoom_percent": 100.00000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer001": {
+            "name": "sldem2015_512_30n_60n_315_360.jp2",
+            "hide": 1,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\sldem2015_512_30n_60n_315_360.jp2"
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -6003.0000000000000,
+                    "stretch_max": -1311.0000000000000
+                }
+            ],
+            "zoom_percent": 100.00000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer002": {
+            "name": "Topographic_Modeling_output_raster_656721229.dat",
+            "hide": 1,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.dat",
+                "auxiliary_url": ["C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.hdr", "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.dat.enp"]
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.39329023603921781,
+                    "stretch_max": 13.647837254099045
+                }
+            ],
+            "zoom_percent": 100.00000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic",
+            "roi000": {
+                "name": "Mons Gruithuisen Gamma",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 7,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi001": {
+                "name": "Mons Gruithuisen Delta",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 6,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi002": {
+                "name": "Gruithuisen Surroundings",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 5,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi003": {
+                "name": "flank of Gamma",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 4,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi004": {
+                "name": "flank of Delta",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 3,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            }
+        },
+        "layer003": {
+            "name": "Topographic_Modeling_output_raster_2710534402.dat",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.dat",
+                "auxiliary_url": ["C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.hdr", "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.dat.enp"]
+            },
+            "bands": "0",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": 0.35490156510844101,
+                    "stretch_max": 13.636524323178458
+                }
+            ],
+            "zoom_percent": 100.00000,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic",
+            "roi000": {
+                "name": "Mairan T Dome",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 11,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi001": {
+                "name": "Mairan \"middle\"",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 10,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi002": {
+                "name": "Mairan \"south\"",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 9,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi003": {
+                "name": "Mairan Surroundings",
+                "hide": 1,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 8,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi004": {
+                "name": "Flank of Mairan T ",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 2,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi005": {
+                "name": "flank of Mairan \"middle\"",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 1,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            },
+            "roi006": {
+                "name": "Flank of Mairan \"south\"",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 0,
+                    "factory": "URLRoi",
+                    "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+                }
+            }
+        },
+        "center": "312.25129,41.303143",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "GEOGCS[\"GCS_Moon_2000\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]"
+    },
+    "dataset0000": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.dat",
+        "auxiliary_url": ["C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.hdr", "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_2710534402.dat.enp"]
+    },
+    "dataset0001": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_1908041724.dat",
+        "auxiliary_url": ["C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_1908041724.hdr", "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_1908041724.dat.enp"]
+    },
+    "dataset0002": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.dat",
+        "auxiliary_url": ["C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.hdr", "C:\\Users\\local_lteng\\Temp\\ENVI_Session_941707697\\Topographic_Modeling_output_raster_656721229.dat.enp"]
+    },
+    "dataset0003": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\sldem2015_512_30n_60n_315_360.jp2"
+    },
+    "dataset0004": {
+        "factory": "URLRaster",
+        "url": "R:\\Teng\\Final Project Dataset\\LOLA Dataset\\sldem2015_512_30n_60n_270_315.jp2"
+    },
+    "dataset0005": {
+        "dataset_index": 0,
+        "factory": "URLRoi",
+        "url": "R:\\Teng\\Final Project Dataset\\Domes and Flanks.xml"
+    }
+}

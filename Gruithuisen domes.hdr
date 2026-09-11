@@ -1,0 +1,18 @@
+ENVI
+description = {
+  Topographic Modeling Result from input DEM [Thu Dec 11 16:49:41 2025]}
+samples = 23040
+lines   = 15360
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, 315.00000000, 60.00000000, 1.9531250000e-03, 1.9531250000e-03, D_Moon_2000, units=Degrees}
+coordinate system string = {GEOGCS["GCS_Moon_2000",DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]]}
+default bands = {1}
+wavelength units = Unknown
+band names = {
+ Slope (Band 1:sldem2015_512_30n_60n_315_360.jp2)}
